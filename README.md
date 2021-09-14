@@ -26,15 +26,19 @@
 The website should have the following pages (components):
 
 **Homepage**
+
 Should contain a list of all blog posts.
 
 **Post page**
+
 Should contain post title, full-content, post author details, a link to the post's edit page.
 
 **Post creation page**
+
 Should contain a form for creating a new post. It should have 2 inputs: title and post body. Once the form is submitted it should make a `POST` request to a corresponding API endpoint with all inputs in the request body.
 
 **Post edit page**
+
 The form should be the same as with post creation. The only difference is that inputs should be pre-filled and that the app should run a `PUT` request to another endpoint.
 
 ## API guidelines
