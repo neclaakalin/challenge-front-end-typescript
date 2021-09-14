@@ -12,6 +12,8 @@
 * Use the API to retrieve data (details below)
 * Make sure the app is responsive and looks clean
 * Use components where applicable
+
+
 <strong>Keep in mind that candidates who used TS  and/ or Angular 2+ will have an upper hand during the initial filtering.</strong>
 ## Functional requirements
 The website should have the following pages (components):
