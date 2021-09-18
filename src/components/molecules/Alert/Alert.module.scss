@@ -1,0 +1,33 @@
+@import "../../../assets/sass/colors.scss";
+
+.alertContainer {
+  border-radius: 10px;
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+  padding: 10px 20px;
+  width: calc(96% - 120px);
+  max-width: 450px;
+  z-index: 20;
+  transition: all 0.25s;
+  color: $white;
+  background-color: $purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &.hide {
+    opacity: 0;
+  }
+
+  & .icon {
+    width: 18px;
+    height: 18px;
+    right: 20px;
+    margin-left: 10px;
+  }
+
+  &.error {
+    background-color: $red;
+  }
+}

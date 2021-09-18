@@ -1,0 +1,42 @@
+@import "../../../assets/sass/colors.scss";
+
+.bitterCard {
+  &Container {
+    max-width: 836px;
+    width: 90%;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: $light_grey;
+    box-sizing: border-box;
+    box-shadow: -10px -10px 30px $white, 10px 10px 30px rgba($grey, 0.4);
+
+    &.withoutShadow {
+      box-shadow: none;
+    }
+
+    & > :first-child {
+      margin-top: 0;
+    }
+  }
+
+  &Header {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &Description {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  &Footer {
+    font-size: 14px;
+    text-align: right;
+  }
+}

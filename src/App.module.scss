@@ -1,0 +1,29 @@
+@import "./assets/sass/colors.scss";
+
+body {
+  background-color: $light_grey;
+  caret-color: transparent;
+}
+
+.App {
+  text-align: center;
+  margin-bottom: 50px;
+
+  .addNewPost {
+    background-color: $purple;
+    border-radius: 10px;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.paginationContainer {
+  display: inline-block;
+  margin: 2% 0;
+}

@@ -1,0 +1,67 @@
+@import "../../../assets/sass/colors.scss";
+
+.popUpContainer {
+  width: 100vw;
+  font-size: 35px;
+  padding: 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  background: rgba($grey, 0.9);
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+
+  & .wrapper {
+    display: inline-block;
+    max-width: 836px;
+    width: 90%;
+
+    & > * {
+      margin: 0;
+      width: 100%;
+    }
+
+    & textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      outline: none;
+      background-color: transparent;
+      border-radius: 6px;
+      border: 0.5px solid $white;
+      font-family: inherit;
+      resize: none;
+
+      &:focus {
+        box-shadow: 0px 0px 30px $white;
+        background-color: $white;
+        caret-color: $black;
+      }
+
+      &.header {
+        font-size: 24px;
+        font-weight: 900;
+      }
+
+      &.description {
+        font-size: 18px;
+      }
+    }
+
+    & input[type="number"] {
+      width: 100px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      outline: none;
+      background-color: transparent;
+      border-radius: 6px;
+      border: 0.5px solid $white;
+      font-family: inherit;
+      resize: none;
+    }
+  }
+}
